@@ -97,7 +97,7 @@ const App = () => {
                         </Card>
                     </Col>
                 </Row>
-                <div className='mt-2'>
+                <div className='my-3'>
                     <h2>Game Host:</h2>
                     <Container className="bg-light border border-dark border-2 overflow-auto" style={{height:400}}>
                         {prompt.map((p, index) => (
